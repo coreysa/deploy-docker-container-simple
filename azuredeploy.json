@@ -19,9 +19,17 @@
         "subscriptionId": {
             "type": "string"
         },
-        "dockerHubImage": {
+        "dockerHubImage1": {
             "type": "string",
             "defaultValue": "nginx"
+        },
+        "dockerHubImage2": {
+            "type": "string",
+            "defaultValue": "redis"
+        },
+        "dockerHubImage3": {
+            "type": "string",
+            "defaultValue": "wordpress"
         }
     },
     "variables": {
@@ -167,9 +175,15 @@
                 "typeHandlerVersion": "0.6",
                 "settings": {
                     "composeup": {
-                         "db": {
-                             "image": "[parameters('dockerHubImage')]"
-                          }
+                         "service1": {
+                             "image": "[parameters('dockerHubImage1')]"
+                         },
+                         "service2": {
+                             "image": "[parameters('dockerHubImage2')]"
+                         },
+                         "service3": {
+                             "image": "[parameters('dockerHubImage3')]"
+                         }
                     }
                 },
                 "installonly": "true"
