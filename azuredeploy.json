@@ -29,7 +29,7 @@
         },
         "dockerHubImage3": {
             "type": "string",
-            "defaultValue": "wordpress"
+            "defaultValue": "mongo"
         }
     },
     "variables": {

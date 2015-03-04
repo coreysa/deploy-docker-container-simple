@@ -24,7 +24,7 @@
             "value": "redis"
         },
         "dockerHubImage3": {
-            "value": "wordpress"
+            "value": "mongo"
         }
    }
 }
