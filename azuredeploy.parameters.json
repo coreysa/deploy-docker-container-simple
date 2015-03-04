@@ -1,0 +1,24 @@
+{
+    "$schema": "http://schema.management.azure.com/schemas/2014-04-01-preview/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "newStorageAccountName": {
+            "value": "coreyarmstore06"
+        },
+        "adminUsername": {
+            "value": "corey"
+        },
+        "adminPassword": {
+            "value": "coreyPass007!"
+        },
+        "vmDnsName": {
+            "value": "coreyarmvm06"
+        },
+        "subscriptionId": {
+            "value": "79d35904-6ebb-471a-93c0-4e81261b8077"
+        },
+        "dockerHubImage": {
+            "value": "nginx"
+        }
+   }
+}
