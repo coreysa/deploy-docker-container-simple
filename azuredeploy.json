@@ -184,9 +184,9 @@
                          "service3": {
                              "image": "[parameters('dockerHubImage3')]"
                          }
-                    }
-                },
-                "installonly": "true"
+                    },
+                    "installonly": "true"
+                }
             }
         }
     ]
